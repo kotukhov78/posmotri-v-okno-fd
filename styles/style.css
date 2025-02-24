@@ -163,13 +163,7 @@ ol {
   border: 1px solid #fff;
 }
 
-input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
-  content: "";
-  width: 15px;
-  height: 15px;
-  background-color: rgb(255 255 255 / 1);
-}
-
+input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after,
 input[type="checkbox"]:active + .search-form__pseudo-checkbox::after {
   content: "";
   width: 15px;
