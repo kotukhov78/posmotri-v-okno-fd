@@ -241,7 +241,7 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox::after {
 }
 
 .content__list-container {
-  max-height: 298px;
+  block-size: 298px;
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -267,6 +267,10 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox::after {
   display: block;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__card-link:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -283,7 +287,6 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox::after {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  background-color: transparent;
 }
 
 .content__video-card {
@@ -326,8 +329,3 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox::after {
   object-fit: cover;
   object-position: center;
 }
-
-.content__card-link_current {
-  background-color: #545050;
-}
-
